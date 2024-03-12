@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="./style/calculator.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div id="name" onclick="position()" style="height: fit-content;">
+            <span><marquee behavior="" direction="">Abu Hayat</marquee></span>
+        </div>
+        <div id="disply"><input id="index"  type="text"></div>
+        <div id="btn-group">
+            <button id="btn-1"  onclick="Clear()"><input value="clear" type="button" name="" id="">
+            </button>
+            <button onclick="Display('1')" id="btn-2"><input type="button" value="1" name="" id="">
+            </button>
+            <button onclick="Display('2')" id="btn-3"><input type="button" value="2" name="" id="">
+            </button>
+            <button onclick="Display('3')" id="btn-4"><input type="button" value="3" name="" id="">
+            </button>
+            <button onclick="Display('+')" id="btn-5"><input type="button" value="+" name="" id="">
+            </button>
+            <button onclick="Display('4')" id="btn-6"><input type="button" value="4" name="" id="">
+            </button>
+            <button onclick="Display('5')" id="btn-7"><input type="button" value="5" name="" id="">
+            </button>
+            <button onclick="Display('6')" id="btn-8"><input type="button" value="6" name="" id="">
+            </button>
+            <button onclick="Display('-')" id="btn-9"><input type="button" value="-" name="" id="">
+            </button>
+            <button onclick="Display('7')" id="btn-10"><input type="button" value="7" name="" id="">
+            </button>
+            <button onclick="Display('8')" id="btn-11"><input type="button" value="8" name="" id="">
+            </button>
+            <button onclick="Display('9')" id="btn-12"><input type="button" value="9" name="" id="">
+            </button>
+            <button onclick="Display('*')" id="btn-13"><input type="button" value="*" name="" id="">
+            </button>
+            <button onclick="Display('0')" id="btn-14"><input type="button" value="0" name="" id="">
+            </button>
+            <button onclick="Display('/')" id="btn-15"><input type="button" value="/" name="" id="">
+    
+            </button>
+            <button onclick="Display('.')" id="btn-16"><input type="button" value="." name="" id="">
+                
+            </button>
+            <button onclick="calculetValue()"id="btn-17"><input type="button" value="=" name="" id="">
+                
+            </button>
+        </div>
+    </div>
+
+
+
+    <script src="./script/calculator.js">
+
+    </script>
+
+</body>
+
+</html>
